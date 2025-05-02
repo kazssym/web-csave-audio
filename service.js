@@ -24,7 +24,7 @@
  * @module service.js
  */
 
-const CACHE_NAME = "20250414.1";
+const CACHE_NAME = "20250501.1";
 
 self.addEventListener("install",
     (event) => {
@@ -42,8 +42,6 @@ self.addEventListener("install",
                 "resources/linuxfront-icon-01-192-full.png",
                 "resources/linuxfront-icon-01-256-full.png",
                 "resources/linuxfront-icon-01-512-full.png",
-                "https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.3/pure-min.css",
-                "https://fonts.googleapis.com/icon?family=Material+Icons&display=block",
             ]);
         };
         event.waitUntil(prepareCache());
